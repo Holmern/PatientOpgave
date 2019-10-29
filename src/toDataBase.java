@@ -6,7 +6,7 @@ public class toDataBase {
     String firstName;
     String lastName;
     int height;
-    Double weight;
+    int weight;
     String description;
     String address;
     int phone;
@@ -41,9 +41,9 @@ public class toDataBase {
         height = sc.nextInt();
         return height;
     }
-    public Double enterWeight() {
+    public int enterWeight() {
         System.out.println("indtast Weight:");
-        weight = sc.nextDouble();
+        weight = sc.nextInt();
         return weight;
     }
     public String enterDescription() {

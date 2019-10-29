@@ -43,7 +43,7 @@ public class mySqlCon {
             preparedStatement.setString(2, db.enterFirstName());
             preparedStatement.setString(3, db.enterLastName());
             preparedStatement.setInt(4, db.enterheight());
-            preparedStatement.setDouble(5, db.enterWeight());
+            preparedStatement.setInt(5, db.enterWeight());
             preparedStatement.setString(6, db.enterDescription());
             preparedStatement.setString(7, db.enteraddress());
             preparedStatement.setInt(8, db.enterPhone());
